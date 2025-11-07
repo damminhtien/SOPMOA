@@ -16,7 +16,7 @@ The repository bundles a suite of exact MOSP solvers:
 * NWMOA* [3]
 * BOA* [4]
 
-[1] C. Hern´andez et al., “Multi-objective Search via Lazy and Efﬁcient Dominance Checks,” Aug. 2023. Accessed: Nov. 07, 2023. [Online]. Available: https://www.semanticscholar.org/paper/Multi-objective-Search-via-Lazy-and-Ef%EF%AC%81cient-Checks-Hern%C2%B4andez-Yeoh/56900d5a101752901df20429df02f704b0655239
+[1] C. Hern´andez et al., “Multi-objective Search via Lazy and Efﬁcient Dominance Checks,” Aug. 2023. Accessed: Nov. 07, 2023. [Online].
 
 [2] Z. Ren, R. Zhan, S. Rathinam, M. Likhachev, and H. Choset, “(EMOA*) Enhanced Multi-Objective A* Using Balanced Binary Search Trees,” SOCS, vol. 15, no. 1, pp. 162–170, Jul. 2022, doi: 10.1609/socs.v15i1.21764.
 
