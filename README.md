@@ -6,36 +6,23 @@
 [![oneTBB](https://img.shields.io/badge/oneTBB-enabled-brightgreen.svg)](#)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-orange.svg)](#license)
 
-**SOPMOA*** is a high-performance framework for **exact multi-objective shortest-path (MOSP)** search on large graphs. It uses a **shared concurrent OPEN** with **per-node Pareto sets**, lightweight dominance checks, and a thread-safe update protocol to scale across many cores.
+**SOPMOA*** is a high-performance framework for exact multi-objective shortest-path (MOSP) search on large graphs. It uses a shared concurrent OPEN with per-node Pareto sets, lightweight dominance checks, and a thread-safe update protocol to scale across many cores.
 
 The repository bundles a suite of exact MOSP solvers:
 
-* **SOPMOA*** (this work) and **SOPMOA-bucket**
-* **LTMOA*** (+ array & lazy variants)
-* **EMOA***, **NWMOA**, **BOA***, **ABOA***
+* SOPMOA* (this work) and SOPMOA*-bucket: 
+* LTMOA* (+ array & lazy variants) [1]
+* EMOA* [2]
+* NWMOA* [3]
+* BOA* [4]
 
-> Target users: search researchers, OR/AI practitioners, and systems engineers who need reproducible MOSP baselines and strong parallel performance.
+[1] C. Hern´andez et al., “Multi-objective Search via Lazy and Efﬁcient Dominance Checks,” Aug. 2023. Accessed: Nov. 07, 2023. [Online]. Available: https://www.semanticscholar.org/paper/Multi-objective-Search-via-Lazy-and-Ef%EF%AC%81cient-Checks-Hern%C2%B4andez-Yeoh/56900d5a101752901df20429df02f704b0655239
 
+[2] Z. Ren, R. Zhan, S. Rathinam, M. Likhachev, and H. Choset, “(EMOA*) Enhanced Multi-Objective A* Using Balanced Binary Search Trees,” SOCS, vol. 15, no. 1, pp. 162–170, Jul. 2022, doi: 10.1609/socs.v15i1.21764.
 
+[3] S. Ahmadi, N. Sturtevant, D. Harabor, and M. Jalili, “(NWMOA*) Exact Multi-objective Path Finding with Negative Weights,” Proceedings of the International Conference on Automated Planning and Scheduling, vol. 34, pp. 11–19, May 2024, doi: 10.1609/icaps.v34i1.31455.
 
-## Table of contents
-
-* [Features](#features)
-* [Quick start](#quick-start)
-* [Requirements](#requirements)
-* [Install](#install)
-* [Build](#build)
-* [Data & scenarios](#data--scenarios)
-* [Usage](#usage)
-* [Outputs](#outputs)
-* [Reproducibility](#reproducibility)
-* [Performance tips](#performance-tips)
-* [Project layout](#project-layout)
-* [Cite](#cite)
-* [License](#license)
-* [Acknowledgments](#acknowledgments)
-
-
+[4] C. Hernández et al., “(BOA* and BOD) Simple and efficient bi-objective search algorithms via fast dominance checks,” Artificial Intelligence, vol. 314, p. 103807, Jan. 2023, doi: 10.1016/j.artint.2022.103807.
 
 ## Features
 
@@ -291,21 +278,12 @@ If you use SOPMOA* or this codebase in academic work, please cite:
 ```bibtex
 @inproceedings{YourSOPMOA2025,
   title     = {SOPMOA*: Shared-OPEN Parallel A* for Multi-Objective Shortest Paths},
-  author    = {Your Name and Collaborators},
-  booktitle = {Proceedings of ...},
+  author    = {Truong, L.V., Dam, T.M., Nguyen, T.A., Nguyen, L.T.T., Dinh, D.T. },
+  booktitle = {Proceedings of Computational Science – ICCS 2025. ICCS 2025. Lecture Notes in Computer Science, vol 15906. Springer, Cham},
   year      = {2025},
-  note      = {Code: https://github.com/<your_org>/<your_repo>}
+  note      = {Code: https://github.com/damminhtien/SOPMOA}
 }
 ```
-
-> You can also add a `CITATION.cff` file to enable “Cite this repository” on GitHub.
-
-
-
-## License
-
-This project is licensed under **AGPL-3.0**. See [`LICENSE`](LICENSE) for details.
-
 
 
 ## Acknowledgments
