@@ -8,6 +8,8 @@
 
 **SOPMOA*** is a high-performance framework for exact multi-objective shortest-path (MOSP) search on large graphs. It uses a shared concurrent OPEN with per-node Pareto sets, lightweight dominance checks, and a thread-safe update protocol to scale across many cores.
 
+![image](sopmoa_flow.png)
+
 The repository bundles a suite of exact MOSP solvers:
 
 * SOPMOA* (this work) and SOPMOA*-bucket: 
@@ -24,7 +26,7 @@ The repository bundles a suite of exact MOSP solvers:
 
 [4] C. Hernández et al., “(BOA* and BOD) Simple and efficient bi-objective search algorithms via fast dominance checks,” Artificial Intelligence, vol. 314, p. 103807, Jan. 2023, doi: 10.1016/j.artint.2022.103807.
 
-## Features
+### Features
 
 * **Exact Pareto-optimal search** for 3–4 objectives on road-like graphs
 * **Parallel**: shared concurrent priority queue + per-node locked Pareto sets
@@ -34,7 +36,7 @@ The repository bundles a suite of exact MOSP solvers:
 
 
 
-## Quick start
+### Quick start
 
 ```bash
 # 1) Build (Release)
@@ -59,7 +61,7 @@ cmake --build . -j
 
 
 
-## Requirements
+### Requirements
 
 * **OS**: Ubuntu 22.04+/Debian 12+, or macOS 14+ (Apple Silicon or x86_64)
 * **Toolchain**: CMake ≥ 3.16, **g++ ≥ 11** (or Clang ≥ 14), C++17
@@ -69,7 +71,7 @@ cmake --build . -j
   * **OpenMP** (runtime + headers)
   * **oneTBB** (Threading Building Blocks)
 
-### Ubuntu/Debian
+#### Ubuntu/Debian
 
 ```bash
 sudo apt update
@@ -77,7 +79,7 @@ sudo apt install -y build-essential cmake \
   libboost-all-dev libomp-dev libtbb-dev
 ```
 
-### macOS (Homebrew)
+#### macOS (Homebrew)
 
 ```bash
 brew install cmake boost llvm tbb
@@ -90,7 +92,7 @@ echo 'export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"'>> ~/.zshrc
 
 
 
-## Build
+### Build
 
 ```bash
 mkdir -p build && cd build
@@ -104,9 +106,9 @@ cmake --build . -j
 
 
 
-## Data & scenarios
+### Data & scenarios
 
-### Graph & weight files
+#### Graph & weight files
 
 Each objective is provided as a separate weight file over the same graph. A typical **edge list** format is:
 
@@ -126,7 +128,7 @@ maps/NY-c.txt   # objective 3: cost (or risk)
 
 > See the `maps/` folder for concrete samples used in our experiments.
 
-### Scenario JSON
+#### Scenario JSON
 
 Batch queries are defined in a JSON array:
 
@@ -141,7 +143,7 @@ Place your scenarios in `scen/` and pass via `--scenario`.
 
 
 
-## Usage
+### Usage
 
 **Common options** (final names may differ; check `--help`):
 
@@ -204,7 +206,7 @@ done
 
 
 
-## Outputs
+### Outputs
 
 * **CSV (`--logcsv`)**: one row per query/algorithm with at least:
 
@@ -218,7 +220,7 @@ done
 
 
 
-## Reproducibility
+### Reproducibility
 
 To match paper runs:
 
@@ -242,7 +244,7 @@ export TBB_NUM_THREADS=16
 
 
 
-## Performance tips
+### Performance tips
 
 * Prefer **Release** builds (`-O3 -DNDEBUG`) for all runs.
 * Scale threads in {1, 2, 4, 8, 16, 20, 24, 32} and plot speedup curves.
@@ -252,7 +254,7 @@ export TBB_NUM_THREADS=16
 
 
 
-## Project layout
+### Project layout
 
 ```
 .
@@ -271,7 +273,7 @@ export TBB_NUM_THREADS=16
 
 
 
-## Cite
+### Cite
 
 If you use SOPMOA* or this codebase in academic work, please cite:
 
@@ -286,19 +288,19 @@ If you use SOPMOA* or this codebase in academic work, please cite:
 ```
 
 
-## Acknowledgments
+### Acknowledgments
 
 We acknowledge foundational MOSP solvers in the literature (LTMOA*, EMOA*, NWMOA, BOA*, ABOA*) and the open-source ecosystem around **Boost**, **OpenMP**, and **oneTBB**.
 
 
 
-### Changelog (optional)
+#### Changelog (optional)
 
 Maintain a `CHANGELOG.md` with semantic versioning once you publish your first release.
 
 
 
-### Contributing (optional)
+#### Contributing (optional)
 
 * Use feature branches and conventional commit messages.
 * Run CI locally: `cmake -S . -B build -DCMAKE_BUILD_TYPE=RelWithDebInfo && cmake --build build -j`
