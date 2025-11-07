@@ -1,0 +1,252 @@
+[
+    {
+        "name": "query3_1",
+        "start_data": 96000,
+        "end_data": 38000
+    },
+    {
+        "name": "query3_2",
+        "start_data": 215000,
+        "end_data": 155000
+    },
+    {
+        "name": "query3_3",
+        "start_data": 208000,
+        "end_data": 179000
+    },
+    {
+        "name": "query3_4",
+        "start_data": 208000,
+        "end_data": 148000
+    },
+    {
+        "name": "query3_5",
+        "start_data": 131000,
+        "end_data": 91000
+    },
+    {
+        "name": "query3_6",
+        "start_data": 199861,
+        "end_data": 173467
+    },
+    {
+        "name": "query3_7",
+        "start_data": 195542,
+        "end_data": 170485
+    },
+    {
+        "name": "query3_8",
+        "start_data": 25000,
+        "end_data": 94000
+    },
+    {
+        "name": "query3_9",
+        "start_data": 66000,
+        "end_data": 130000
+    },
+    {
+        "name": "query3_10",
+        "start_data": 202662,
+        "end_data": 213547
+    },
+    {
+        "name": "query3_11",
+        "start_data": 167000,
+        "end_data": 196000
+    },
+    {
+        "name": "query3_12",
+        "start_data": 167873,
+        "end_data": 200236
+    },
+    {
+        "name": "query3_13",
+        "start_data": 175000,
+        "end_data": 189000
+    },
+    {
+        "name": "query3_14",
+        "start_data": 186505,
+        "end_data": 202771
+    },
+    {
+        "name": "query3_15",
+        "start_data": 116090,
+        "end_data": 101850
+    },
+    {
+        "name": "query3_16",
+        "start_data": 123000,
+        "end_data": 91000
+    },
+    {
+        "name": "query3_17",
+        "start_data": 98731,
+        "end_data": 124580
+    },
+    {
+        "name": "query3_18",
+        "start_data": 162000,
+        "end_data": 177000
+    },
+    {
+        "name": "query3_19",
+        "start_data": 204000,
+        "end_data": 216000
+    },
+    {
+        "name": "query3_20",
+        "start_data": 36000,
+        "end_data": 31000
+    },
+    {
+        "name": "query3_21",
+        "start_data": 61744,
+        "end_data": 53068
+    },
+    {
+        "name": "query3_22",
+        "start_data": 197791,
+        "end_data": 201611
+    },
+    {
+        "name": "query3_23",
+        "start_data": 188760,
+        "end_data": 212906
+    },
+    {
+        "name": "query3_24",
+        "start_data": 9000,
+        "end_data": 8000
+    },
+    {
+        "name": "query3_25",
+        "start_data": 26469,
+        "end_data": 128545
+    },
+    {
+        "name": "query3_26",
+        "start_data": 166000,
+        "end_data": 199000
+    },
+    {
+        "name": "query3_27",
+        "start_data": 131000,
+        "end_data": 22000
+    },
+    {
+        "name": "query3_28",
+        "start_data": 233000,
+        "end_data": 259000
+    },
+    {
+        "name": "query3_29",
+        "start_data": 239890,
+        "end_data": 230551
+    },
+    {
+        "name": "query3_30",
+        "start_data": 230660,
+        "end_data": 112517
+    },
+    {
+        "name": "query3_31",
+        "start_data": 43000,
+        "end_data": 56000
+    },
+    {
+        "name": "query3_32",
+        "start_data": 128000,
+        "end_data": 21000
+    },
+    {
+        "name": "query3_33",
+        "start_data": 55537,
+        "end_data": 43324
+    },
+    {
+        "name": "query3_34",
+        "start_data": 95000,
+        "end_data": 229000
+    },
+    {
+        "name": "query3_35",
+        "start_data": 198000,
+        "end_data": 177000
+    },
+    {
+        "name": "query3_36",
+        "start_data": 175000,
+        "end_data": 198000
+    },
+    {
+        "name": "query3_37",
+        "start_data": 255000,
+        "end_data": 13000
+    },
+    {
+        "name": "query3_38",
+        "start_data": 88959,
+        "end_data": 96072
+    },
+    {
+        "name": "query3_39",
+        "start_data": 187000,
+        "end_data": 164000
+    },
+    {
+        "name": "query3_40",
+        "start_data": 172570,
+        "end_data": 197762
+    },
+    {
+        "name": "query3_41",
+        "start_data": 196000,
+        "end_data": 26000
+    },
+    {
+        "name": "query3_42",
+        "start_data": 258000,
+        "end_data": 113000
+    },
+    {
+        "name": "query3_43",
+        "start_data": 52408,
+        "end_data": 165221
+    },
+    {
+        "name": "query3_44",
+        "start_data": 189626,
+        "end_data": 210468
+    },
+    {
+        "name": "query3_45",
+        "start_data": 128486,
+        "end_data": 140634
+    },
+    {
+        "name": "query3_46",
+        "start_data": 53000,
+        "end_data": 258000
+    },
+    {
+        "name": "query3_47",
+        "start_data": 56860,
+        "end_data": 42181
+    },
+    {
+        "name": "query3_48",
+        "start_data": 190059,
+        "end_data": 201621
+    },
+    {
+        "name": "query3_49",
+        "start_data": 144000,
+        "end_data": 139000
+    },
+    {
+        "name": "query3_50",
+        "start_data": 112000,
+        "end_data": 130000
+    }
+]

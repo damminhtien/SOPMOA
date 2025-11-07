@@ -1,0 +1,67 @@
+[
+    {
+        "name": "query3_1",
+        "start_data": 162000,
+        "end_data": 177000
+    },
+    {
+        "name": "query3_2",
+        "start_data": 9000,
+        "end_data": 8000
+    },
+    {
+        "name": "query3_3",
+        "start_data": 244000,
+        "end_data": 223000
+    },
+    {
+        "name": "query3_4",
+        "start_data": 159000,
+        "end_data": 85000
+    },
+    {
+        "name": "query3_5",
+        "start_data": 59000,
+        "end_data": 220000
+    },
+    {
+        "name": "query3_6",
+        "start_data": 251000,
+        "end_data": 4000
+    },
+    {
+        "name": "query3_7",
+        "start_data": 253000,
+        "end_data": 259000
+    },
+    {
+        "name": "query3_8",
+        "start_data": 202000,
+        "end_data": 159000
+    },
+    {
+        "name": "query3_9",
+        "start_data": 131000,
+        "end_data": 50000
+    },
+    {
+        "name": "query3_10",
+        "start_data": 92000,
+        "end_data": 122000
+    },
+    {
+        "name": "query3_11",
+        "start_data": 179000,
+        "end_data": 216000
+    },
+    {
+        "name": "query3_12",
+        "start_data": 231000,
+        "end_data": 97000
+    },
+    {
+        "name": "query3_13",
+        "start_data": 137000,
+        "end_data": 200000
+    }
+]

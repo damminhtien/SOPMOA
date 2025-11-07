@@ -1,0 +1,44 @@
+mkdir Release
+cd Release
+cmake .. -DCMAKE_BUILD_TYPE=Release
+make
+
+mkdir Debug
+cd Debug
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+make
+
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-l.txt --output "../output/run.csv" --logsols "../output/SOPMOA" -s 1000 -t 80000 --alg SOPMOA --timelimit 3600
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-l.txt --output "../output/run.csv" --logsols "../output/LTMOA" -s 1000 -t 10000 --alg LTMOA --timelimit 3600
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-l.txt --output "../output/run.csv" --logsols "../output/EMOA" -s 1000 -t 10000 --alg EMOA --timelimit 3600
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-l.txt --output "../output/run.csv" --logsols "../output/NWMOA" -s 1000 -t 10000 --alg NWMOA --timelimit 3600
+
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt --scenario "../scen/query1.json" --output "../output/sopmoa_result.csv" --logsols "../output/SOPMOA" --alg SOPMOA --timelimit 3600 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt  ../maps/NY-r.txt --scenario "../scen/query1.json" --output "../output/ltmoa_result.csv" --logsols "../output/LTMOA" --alg LTMOA --timelimit 3600 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt  ../maps/NY-r.txt --scenario "../scen/query1.json" --output "../output/emoa_result.csv" --logsols "../output/EMOA" --alg EMOA --timelimit 3600 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt  ../maps/NY-r.txt --scenario "../scen/query1.json" --output "../output/nwmoa_result.csv" --logsols "../output/NWMOA" --alg NWMOA --timelimit 3600 
+
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt --scenario "../scen/query3.json" --output "../output/ltmoa_array_result.csv" --logsols "../output/LTMOA_array" --alg LTMOA_array --timelimit 3600 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt  ../maps/NY-r.txt --scenario "../scen/query1.json" --output "../output/lazy_ltmoa_array_result.csv" --logsols "../output/LazyLTMOA_array" --alg LazyLTMOA_array --timelimit 3600 
+
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt --scenario "../scen/query5.json" --output "../output/sopmoa_result.csv" --logsols "../output/SOPMOA" --alg SOPMOA --timelimit 3600 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt --scenario "../scen/query5.json" --output "../output/emoa_result.csv" --logsols "../output/EMOA" --alg EMOA --timelimit 3600 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt --scenario "../scen/query5.json" --output "../output/nwmoa_result.csv" --logsols "../output/NWMOA" --alg NWMOA --timelimit 3600 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt --scenario "../scen/query5.json" --output "../output/ltmoa_result.csv" --logsols "../output/LTMOA" --alg LTMOA --timelimit 3600 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt --scenario "../scen/query5.json" --output "../output/lazy_ltmoa_result.csv" --logsols "../output/LazyLTMOA" --alg LazyLTMOA --timelimit 3600 
+
+
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt --output "../output/nwmoa_result.csv" --logsols "../output/NWMOA" --alg NWMOA --timelimit 3600 --scenario "../scen/query5.json" 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt --output "../output/sopmoa_bucket_result.csv" --logsols "../output/SOPMOA" --alg SOPMOA_bucket --timelimit 3600 --scenario "../scen/query5.json" 
+
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt --output "../output/lazy_ltmoa_array_result.csv" --logsols "../output/LazyLTMOA_array" --alg LazyLTMOA_array --timelimit 3600 --scenario "../scen/query5.json" 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt --output "../output/sopmoa_result.csv" --logsols "../output/SOPMOA" --alg SOPMOA --timelimit 3600 --scenario "../scen/good.json"
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt --output "../output/nwmoa_result.csv" --logsols "../output/NWMOA" --alg NWMOA --timelimit 3600 --scenario "../scen/good.json" 
+
+
+
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt ../maps/NY-r.txt --output "../output/sopmoa_result.csv" --logsols "../output/SOPMOA" --alg SOPMOA --timelimit 3600 --scenario "../scen/good.json" 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt ../maps/NY-r.txt --output "../output/nwmoa_result.csv" --logsols "../output/NWMOA" --alg NWMOA --timelimit 3600 --scenario "../scen/good.json" 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt ../maps/NY-r.txt --output "../output/ltmoa_result.csv" --logsols "../output/LTMOA" --alg LTMOA --timelimit 3600 --scenario "../scen/good.json" 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt ../maps/NY-r.txt --output "../output/lazy_ltmoa_result.csv" --logsols "../output/LazyLTMOA" --alg LazyLTMOA --timelimit 3600 --scenario "../scen/good.json" 
+./main -m ../maps/NY-d.txt ../maps/NY-t.txt  ../maps/NY-m.txt ../maps/NY-r.txt --output "../output/emoa_result.csv" --logsols "../output/EMOA" --alg EMOA --timelimit 3600 --scenario "../scen/good.json" 

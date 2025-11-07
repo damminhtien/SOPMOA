@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOG_DYN_LINK -DBOOST_LOG_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DTBB_USE_DEBUG -I\"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/inc\"  -g -Wall -std=gnu++17 -fopenmp -o CMakeFiles/main.dir/src/main.cpp.o -c \"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/main.cpp\"",
+  "file": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOG_DYN_LINK -DBOOST_LOG_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DTBB_USE_DEBUG -I\"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/inc\"  -g -Wall -std=gnu++17 -fopenmp -o CMakeFiles/main.dir/src/algorithms/emoa.cpp.o -c \"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/emoa.cpp\"",
+  "file": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/emoa.cpp",
+  "output": "CMakeFiles/main.dir/src/algorithms/emoa.cpp.o"
+},
+{
+  "directory": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOG_DYN_LINK -DBOOST_LOG_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DTBB_USE_DEBUG -I\"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/inc\"  -g -Wall -std=gnu++17 -fopenmp -o CMakeFiles/main.dir/src/algorithms/lazy_ltmoa.cpp.o -c \"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/lazy_ltmoa.cpp\"",
+  "file": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/lazy_ltmoa.cpp",
+  "output": "CMakeFiles/main.dir/src/algorithms/lazy_ltmoa.cpp.o"
+},
+{
+  "directory": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOG_DYN_LINK -DBOOST_LOG_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DTBB_USE_DEBUG -I\"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/inc\"  -g -Wall -std=gnu++17 -fopenmp -o CMakeFiles/main.dir/src/algorithms/lazy_ltmoa_array.cpp.o -c \"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/lazy_ltmoa_array.cpp\"",
+  "file": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/lazy_ltmoa_array.cpp",
+  "output": "CMakeFiles/main.dir/src/algorithms/lazy_ltmoa_array.cpp.o"
+},
+{
+  "directory": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOG_DYN_LINK -DBOOST_LOG_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DTBB_USE_DEBUG -I\"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/inc\"  -g -Wall -std=gnu++17 -fopenmp -o CMakeFiles/main.dir/src/algorithms/ltmoa.cpp.o -c \"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/ltmoa.cpp\"",
+  "file": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/ltmoa.cpp",
+  "output": "CMakeFiles/main.dir/src/algorithms/ltmoa.cpp.o"
+},
+{
+  "directory": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOG_DYN_LINK -DBOOST_LOG_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DTBB_USE_DEBUG -I\"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/inc\"  -g -Wall -std=gnu++17 -fopenmp -o CMakeFiles/main.dir/src/algorithms/ltmoa_array.cpp.o -c \"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/ltmoa_array.cpp\"",
+  "file": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/ltmoa_array.cpp",
+  "output": "CMakeFiles/main.dir/src/algorithms/ltmoa_array.cpp.o"
+},
+{
+  "directory": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOG_DYN_LINK -DBOOST_LOG_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DTBB_USE_DEBUG -I\"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/inc\"  -g -Wall -std=gnu++17 -fopenmp -o CMakeFiles/main.dir/src/algorithms/nwmoa.cpp.o -c \"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/nwmoa.cpp\"",
+  "file": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/nwmoa.cpp",
+  "output": "CMakeFiles/main.dir/src/algorithms/nwmoa.cpp.o"
+},
+{
+  "directory": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOG_DYN_LINK -DBOOST_LOG_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DTBB_USE_DEBUG -I\"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/inc\"  -g -Wall -std=gnu++17 -fopenmp -o CMakeFiles/main.dir/src/algorithms/sopmoa.cpp.o -c \"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/sopmoa.cpp\"",
+  "file": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/sopmoa.cpp",
+  "output": "CMakeFiles/main.dir/src/algorithms/sopmoa.cpp.o"
+},
+{
+  "directory": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOG_DYN_LINK -DBOOST_LOG_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DTBB_USE_DEBUG -I\"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/inc\"  -g -Wall -std=gnu++17 -fopenmp -o CMakeFiles/main.dir/src/algorithms/sopmoa_bucket.cpp.o -c \"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/sopmoa_bucket.cpp\"",
+  "file": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/algorithms/sopmoa_bucket.cpp",
+  "output": "CMakeFiles/main.dir/src/algorithms/sopmoa_bucket.cpp.o"
+},
+{
+  "directory": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOG_DYN_LINK -DBOOST_LOG_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DTBB_USE_DEBUG -I\"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/inc\"  -g -Wall -std=gnu++17 -fopenmp -o CMakeFiles/main.dir/src/problem/graph.cpp.o -c \"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/problem/graph.cpp\"",
+  "file": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/problem/graph.cpp",
+  "output": "CMakeFiles/main.dir/src/problem/graph.cpp.o"
+},
+{
+  "directory": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOG_DYN_LINK -DBOOST_LOG_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DTBB_USE_DEBUG -I\"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/inc\"  -g -Wall -std=gnu++17 -fopenmp -o CMakeFiles/main.dir/src/problem/heuristic.cpp.o -c \"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/problem/heuristic.cpp\"",
+  "file": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/problem/heuristic.cpp",
+  "output": "CMakeFiles/main.dir/src/problem/heuristic.cpp.o"
+},
+{
+  "directory": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOG_DYN_LINK -DBOOST_LOG_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DTBB_USE_DEBUG -I\"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/inc\"  -g -Wall -std=gnu++17 -fopenmp -o CMakeFiles/main.dir/src/utils/data_io.cpp.o -c \"/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/utils/data_io.cpp\"",
+  "file": "/home/ha/Desktop/Path Planning Reseach/mosp/MOSP_sopmoa/src/utils/data_io.cpp",
+  "output": "CMakeFiles/main.dir/src/utils/data_io.cpp.o"
+}
+]

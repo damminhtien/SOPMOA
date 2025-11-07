@@ -1,0 +1,122 @@
+[
+    {
+        "name": "query3_1",
+        "start_data": 25000,
+        "end_data": 94000
+    },
+    {
+        "name": "query3_2",
+        "start_data": 204000,
+        "end_data": 216000
+    },
+    {
+        "name": "query3_3",
+        "start_data": 208000,
+        "end_data": 148000
+    },
+    {
+        "name": "query3_4",
+        "start_data": 128000,
+        "end_data": 21000
+    },
+    {
+        "name": "query3_5",
+        "start_data": 70000,
+        "end_data": 198000
+    },
+    {
+        "name": "query3_6",
+        "start_data": 196000,
+        "end_data": 26000
+    },
+    {
+        "name": "query3_7",
+        "start_data": 258000,
+        "end_data": 113000
+    },
+    {
+        "name": "query3_8",
+        "start_data": 249000,
+        "end_data": 43000
+    },
+    {
+        "name": "query3_9",
+        "start_data": 140000,
+        "end_data": 121000
+    },
+    {
+        "name": "query3_10",
+        "start_data": 215000,
+        "end_data": 155000
+    },
+    {
+        "name": "query3_11",
+        "start_data": 99000,
+        "end_data": 169000
+    },
+    {
+        "name": "query3_12",
+        "start_data": 131000,
+        "end_data": 22000
+    },
+    {
+        "name": "query3_13",
+        "start_data": 175000,
+        "end_data": 189000
+    },
+    {
+        "name": "query3_14",
+        "start_data": 95000,
+        "end_data": 229000
+    },
+    {
+        "name": "query3_15",
+        "start_data": 87000,
+        "end_data": 95000
+    },
+    {
+        "name": "query3_16",
+        "start_data": 96000,
+        "end_data": 38000
+    },
+    {
+        "name": "query3_17",
+        "start_data": 43000,
+        "end_data": 56000
+    },
+    {
+        "name": "query3_18",
+        "start_data": 123000,
+        "end_data": 91000
+    },
+    {
+        "name": "query3_19",
+        "start_data": 255000,
+        "end_data": 13000
+    },
+    {
+        "name": "query3_20",
+        "start_data": 135000,
+        "end_data": 154000
+    },
+    {
+        "name": "query3_21",
+        "start_data": 200000,
+        "end_data": 44000
+    },
+    {
+        "name": "query3_22",
+        "start_data": 187000,
+        "end_data": 164000
+    },
+    {
+        "name": "query3_23",
+        "start_data": 53000,
+        "end_data": 258000
+    },
+    {
+        "name": "query3_24",
+        "start_data": 66000,
+        "end_data": 130000
+    }
+]

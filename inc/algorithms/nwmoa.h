@@ -1,0 +1,45 @@
+#ifndef ALGORITHM_NWMOA
+#define ALGORITHM_NWMOA
+
+#include"../common_inc.h"
+#include"../problem/graph.h"
+#include"../problem/heuristic.h"
+#include"../utils/cost.h"
+#include"../utils/label.h"
+#include"../utils/pq_bucket.h"
+#include"abstract_solver.h"
+#include"gcl/gcl_nwmoa.h"
+
+template <int N>
+class NWMOA: public AbstractSolver {
+public:
+    Heuristic<N> heuristic;
+
+    NWMOA(AdjacencyMatrix &adj_matrix, AdjacencyMatrix &inv_graph, size_t start_node, size_t target_node)
+    : AbstractSolver(adj_matrix, start_node, target_node),
+    gcl_ptr(std::make_unique<Gcl_NWMOA<N-1>>(adj_matrix.get_num_node())),
+    heuristic(Heuristic<N>(target_node, inv_graph)) {
+        for (size_t i = 0; i <= adj_matrix.get_num_node(); i++) {
+            CostVec<N-1> temp_cost;
+            temp_cost.fill(MAX_COST);
+            cost_last_truncated.push_back(temp_cost);
+        }
+    }
+
+    ~NWMOA() { for (auto ptr : all_labels){ delete ptr; } }
+
+    virtual std::string get_name() override {return "NWMOA(" + std::to_string(N)+"obj)-" + gcl_ptr->get_name(); }
+    void solve(unsigned int time_limit=UINT_MAX) override;
+
+private:
+    std::list<Label<N>*> all_labels;
+    std::unique_ptr<Gcl_NWMOA<N-1>> gcl_ptr;
+    std::vector<CostVec<N-1>> cost_last_truncated;
+};
+
+std::shared_ptr<AbstractSolver> get_NWMOA_solver(
+    AdjacencyMatrix &graph, AdjacencyMatrix &inv_graph,
+    size_t start_node, size_t target_node
+);
+
+#endif

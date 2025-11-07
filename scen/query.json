@@ -1,0 +1,502 @@
+[
+    {
+        "end_data": 129000,
+        "name": "NYcase2_0",
+        "start_data": 128000
+    },
+    {
+        "end_data": 170000,
+        "name": "NYcase2_1",
+        "start_data": 173000
+    },
+    {
+        "end_data": 247000,
+        "name": "NYcase2_2",
+        "start_data": 243000
+    },
+    {
+        "end_data": 139000,
+        "name": "NYcase2_3",
+        "start_data": 144000
+    },
+    {
+        "end_data": 31000,
+        "name": "NYcase2_4",
+        "start_data": 36000
+    },
+    {
+        "end_data": 161000,
+        "name": "NYcase2_5",
+        "start_data": 156000
+    },
+    {
+        "end_data": 17000,
+        "name": "NYcase2_6",
+        "start_data": 23000
+    },
+    {
+        "end_data": 78000,
+        "name": "NYcase2_7",
+        "start_data": 89000
+    },
+    {
+        "end_data": 58000,
+        "name": "NYcase2_8",
+        "start_data": 71000
+    },
+    {
+        "end_data": 199000,
+        "name": "NYcase2_9",
+        "start_data": 181000
+    },
+    {
+        "end_data": 130000,
+        "name": "NYcase2_10",
+        "start_data": 112000
+    },
+    {
+        "end_data": 58000,
+        "name": "NYcase2_11",
+        "start_data": 77000
+    },
+    {
+        "end_data": 177000,
+        "name": "NYcase2_12",
+        "start_data": 198000
+    },
+    {
+        "end_data": 180000,
+        "name": "NYcase2_13",
+        "start_data": 202000
+    },
+    {
+        "end_data": 30000,
+        "name": "NYcase2_14",
+        "start_data": 52000
+    },
+    {
+        "end_data": 198000,
+        "name": "NYcase2_15",
+        "start_data": 175000
+    },
+    {
+        "end_data": 80000,
+        "name": "NYcase2_16",
+        "start_data": 56000
+    },
+    {
+        "end_data": 259000,
+        "name": "NYcase2_17",
+        "start_data": 233000
+    },
+    {
+        "end_data": 102000,
+        "name": "NYcase2_18",
+        "start_data": 75000
+    },
+    {
+        "end_data": 55000,
+        "name": "NYcase2_19",
+        "start_data": 28000
+    },
+    {
+        "end_data": 179000,
+        "name": "NYcase2_20",
+        "start_data": 208000
+    },
+    {
+        "end_data": 239000,
+        "name": "NYcase2_21",
+        "start_data": 210000
+    },
+    {
+        "end_data": 196000,
+        "name": "NYcase2_22",
+        "start_data": 167000
+    },
+    {
+        "end_data": 199000,
+        "name": "NYcase2_23",
+        "start_data": 166000
+    },
+    {
+        "end_data": 258000,
+        "name": "NYcase2_24",
+        "start_data": 223000
+    },
+    {
+        "end_data": 72000,
+        "name": "NYcase2_25",
+        "start_data": 111000
+    },
+    {
+        "end_data": 91000,
+        "name": "NYcase2_26",
+        "start_data": 131000
+    },
+    {
+        "end_data": 176000,
+        "name": "NYcase2_27",
+        "start_data": 136000
+    },
+    {
+        "end_data": 97000,
+        "name": "NYcase2_28",
+        "start_data": 141000
+    },
+    {
+        "end_data": 188000,
+        "name": "NYcase2_29",
+        "start_data": 142000
+    },
+    {
+        "end_data": 83000,
+        "name": "NYcase2_30",
+        "start_data": 36000
+    },
+    {
+        "end_data": 202000,
+        "name": "NYcase2_31",
+        "start_data": 154000
+    },
+    {
+        "end_data": 126000,
+        "name": "NYcase2_32",
+        "start_data": 174000
+    },
+    {
+        "end_data": 83000,
+        "name": "NYcase2_33",
+        "start_data": 131000
+    },
+    {
+        "end_data": 257000,
+        "name": "NYcase2_34",
+        "start_data": 207000
+    },
+    {
+        "end_data": 125000,
+        "name": "NYcase2_35",
+        "start_data": 72000
+    },
+    {
+        "end_data": 61000,
+        "name": "NYcase2_36",
+        "start_data": 115000
+    },
+    {
+        "end_data": 5000,
+        "name": "NYcase2_37",
+        "start_data": 59000
+    },
+    {
+        "end_data": 103000,
+        "name": "NYcase2_38",
+        "start_data": 160000
+    },
+    {
+        "end_data": 154000,
+        "name": "NYcase2_39",
+        "start_data": 212000
+    },
+    {
+        "end_data": 153000,
+        "name": "NYcase2_40",
+        "start_data": 91000
+    },
+    {
+        "end_data": 170000,
+        "name": "NYcase2_41",
+        "start_data": 106000
+    },
+    {
+        "end_data": 95000,
+        "name": "NYcase2_42",
+        "start_data": 163000
+    },
+    {
+        "end_data": 198000,
+        "name": "NYcase2_43",
+        "start_data": 129000
+    },
+    {
+        "end_data": 70000,
+        "name": "NYcase2_44",
+        "start_data": 1000
+    },
+    {
+        "end_data": 182000,
+        "name": "NYcase2_45",
+        "start_data": 255000
+    },
+    {
+        "end_data": 133000,
+        "name": "NYcase2_46",
+        "start_data": 58000
+    },
+    {
+        "end_data": 157000,
+        "name": "NYcase2_47",
+        "start_data": 80000
+    },
+    {
+        "end_data": 100000,
+        "name": "NYcase2_48",
+        "start_data": 188000
+    },
+    {
+        "end_data": 106000,
+        "name": "NYcase2_49",
+        "start_data": 198000
+    },
+    {
+        "end_data": 196000,
+        "name": "NYcase2_50",
+        "start_data": 99000
+    },
+    {
+        "end_data": 138000,
+        "name": "NYcase2_51",
+        "start_data": 238000
+    },
+    {
+        "end_data": 149000,
+        "name": "NYcase2_52",
+        "start_data": 249000
+    },
+    {
+        "end_data": 208000,
+        "name": "NYcase2_53",
+        "start_data": 107000
+    },
+    {
+        "end_data": 131000,
+        "name": "NYcase2_54",
+        "start_data": 29000
+    },
+    {
+        "end_data": 191000,
+        "name": "NYcase2_55",
+        "start_data": 88000
+    },
+    {
+        "end_data": 232000,
+        "name": "NYcase2_56",
+        "start_data": 129000
+    },
+    {
+        "end_data": 161000,
+        "name": "NYcase2_57",
+        "start_data": 55000
+    },
+    {
+        "end_data": 157000,
+        "name": "NYcase2_58",
+        "start_data": 264000
+    },
+    {
+        "end_data": 256000,
+        "name": "NYcase2_59",
+        "start_data": 149000
+    },
+    {
+        "end_data": 16000,
+        "name": "NYcase2_60",
+        "start_data": 125000
+    },
+    {
+        "end_data": 70000,
+        "name": "NYcase2_61",
+        "start_data": 180000
+    },
+    {
+        "end_data": 161000,
+        "name": "NYcase2_62",
+        "start_data": 48000
+    },
+    {
+        "end_data": 184000,
+        "name": "NYcase2_63",
+        "start_data": 70000
+    },
+    {
+        "end_data": 145000,
+        "name": "NYcase2_64",
+        "start_data": 262000
+    },
+    {
+        "end_data": 126000,
+        "name": "NYcase2_65",
+        "start_data": 8000
+    },
+    {
+        "end_data": 140000,
+        "name": "NYcase2_66",
+        "start_data": 20000
+    },
+    {
+        "end_data": 146000,
+        "name": "NYcase2_67",
+        "start_data": 26000
+    },
+    {
+        "end_data": 37000,
+        "name": "NYcase2_68",
+        "start_data": 157000
+    },
+    {
+        "end_data": 101000,
+        "name": "NYcase2_69",
+        "start_data": 223000
+    },
+    {
+        "end_data": 58000,
+        "name": "NYcase2_70",
+        "start_data": 182000
+    },
+    {
+        "end_data": 89000,
+        "name": "NYcase2_71",
+        "start_data": 214000
+    },
+    {
+        "end_data": 153000,
+        "name": "NYcase2_72",
+        "start_data": 27000
+    },
+    {
+        "end_data": 194000,
+        "name": "NYcase2_73",
+        "start_data": 68000
+    },
+    {
+        "end_data": 41000,
+        "name": "NYcase2_74",
+        "start_data": 169000
+    },
+    {
+        "end_data": 24000,
+        "name": "NYcase2_75",
+        "start_data": 152000
+    },
+    {
+        "end_data": 21000,
+        "name": "NYcase2_76",
+        "start_data": 150000
+    },
+    {
+        "end_data": 74000,
+        "name": "NYcase2_77",
+        "start_data": 204000
+    },
+    {
+        "end_data": 67000,
+        "name": "NYcase2_78",
+        "start_data": 198000
+    },
+    {
+        "end_data": 189000,
+        "name": "NYcase2_79",
+        "start_data": 54000
+    },
+    {
+        "end_data": 139000,
+        "name": "NYcase2_80",
+        "start_data": 3000
+    },
+    {
+        "end_data": 198000,
+        "name": "NYcase2_81",
+        "start_data": 61000
+    },
+    {
+        "end_data": 87000,
+        "name": "NYcase2_82",
+        "start_data": 232000
+    },
+    {
+        "end_data": 250000,
+        "name": "NYcase2_83",
+        "start_data": 104000
+    },
+    {
+        "end_data": 171000,
+        "name": "NYcase2_84",
+        "start_data": 20000
+    },
+    {
+        "end_data": 35000,
+        "name": "NYcase2_85",
+        "start_data": 188000
+    },
+    {
+        "end_data": 241000,
+        "name": "NYcase2_86",
+        "start_data": 66000
+    },
+    {
+        "end_data": 226000,
+        "name": "NYcase2_87",
+        "start_data": 47000
+    },
+    {
+        "end_data": 22000,
+        "name": "NYcase2_88",
+        "start_data": 202000
+    },
+    {
+        "end_data": 18000,
+        "name": "NYcase2_89",
+        "start_data": 199000
+    },
+    {
+        "end_data": 233000,
+        "name": "NYcase2_90",
+        "start_data": 50000
+    },
+    {
+        "end_data": 231000,
+        "name": "NYcase2_91",
+        "start_data": 45000
+    },
+    {
+        "end_data": 19000,
+        "name": "NYcase2_92",
+        "start_data": 206000
+    },
+    {
+        "end_data": 194000,
+        "name": "NYcase2_93",
+        "start_data": 2000
+    },
+    {
+        "end_data": 206000,
+        "name": "NYcase2_94",
+        "start_data": 8000
+    },
+    {
+        "end_data": 236000,
+        "name": "NYcase2_95",
+        "start_data": 35000
+    },
+    {
+        "end_data": 234000,
+        "name": "NYcase2_96",
+        "start_data": 26000
+    },
+    {
+        "end_data": 244000,
+        "name": "NYcase2_97",
+        "start_data": 32000
+    },
+    {
+        "end_data": 232000,
+        "name": "NYcase2_98",
+        "start_data": 19000
+    },
+    {
+        "end_data": 257000,
+        "name": "NYcase2_99",
+        "start_data": 5000
+    }
+]

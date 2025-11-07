@@ -1,0 +1,47 @@
+[
+    {
+        "name": "query3_1",
+        "start_data": 88959,
+        "end_data": 96072
+    },
+    {
+        "name": "query3_2",
+        "start_data": 172570,
+        "end_data": 197762
+    },
+    {
+        "name": "query3_3",
+        "start_data": 52408,
+        "end_data": 165221
+    },
+    {
+        "name": "query3_4",
+        "start_data": 128486,
+        "end_data": 140634
+    },
+    {
+        "name": "query3_5",
+        "start_data": 189626,
+        "end_data": 210468
+    },
+    {
+        "name": "query3_6",
+        "start_data": 190059,
+        "end_data": 201621
+    },
+    {
+        "name": "query3_7",
+        "start_data": 112000,
+        "end_data": 130000
+    },
+    {
+        "name": "query3_8",
+        "start_data": 111000,
+        "end_data": 72000
+    },
+    {
+        "name": "query3_9",
+        "start_data": 144000,
+        "end_data": 139000
+    }
+]
